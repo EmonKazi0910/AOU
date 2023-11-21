@@ -8,8 +8,8 @@ from transformers import pipeline
 # creating a connection between our app and Twitter
 consumer_key = 'Q2LHpZfchOxw0tFfyAvLCnzS0'
 consumer_secret = '7NCaOne6CzHYmjaJhkCo7zIVqBD3TZdWUdI'
-access_token = '1724446414032248832-m82VquM7FOmsDmHfbe8xldPjtWIz9U'
-access_token_secret = 'ET3Ul2u6aRgIQYONj9Mzp9YWSEdJ2pn1N0AUtX43lnUsg'
+access_token = '1724446414032248832-FYqCWSgdajvgzxpupxjYKbTQmOP1fa'
+access_token_secret = 'dBxoNNydRln5HuioQvyBlKWvNMT0hdyRZf1wx15ZVOlcb'
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
