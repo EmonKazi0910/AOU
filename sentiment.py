@@ -6,8 +6,8 @@ import pandas as pd
 from transformers import pipeline
 
 # creating a connection between our app and Twitter
-access_token = '1724446414032248832-FYqCWSgdajvgzxpupxjYKbTQmOP1fa'
-access_token_secret = 'dBxoNNydRln5HuioQvyBlKWvNMT0hdyRZf1wx15ZVOlcb'
+access_token = 'NTFDWTJZXy1vbjUzdU8xbjJaSnY6MTpjaQ'
+access_token_secret = 'yJkCnN1nyBcP6M09daxiVFr_cRDWkeAisQLnI3qQmcP0pv8eyf'
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tw.API(auth, wait_on_rate_limit=True)
